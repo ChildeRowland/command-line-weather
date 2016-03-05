@@ -1,0 +1,11 @@
+Command line node application.  Run program with:
+
+	node app.js
+
+Will print out the current temperature based on ip address.
+
+Alternatively, you can run program with:
+
+	nade app.js -l 'city name'
+
+If the Open Weather Api recognizes the city, it will return the current temperature of that city.
