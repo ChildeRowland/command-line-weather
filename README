@@ -1,11 +1,21 @@
-Command line node application.  Run program with:
+Command line node application to get weather by city.  Users can enter city or allow ipinfo.io to get location via IP address.
 
-	node app.js
+To try it in the command line:
 
-Will print out the current temperature based on ip address.
+	$ git clone https://github.com/ChildeRowland/command-line-weather
+	$ cd command-line-weather
+	$ npm install
 
-Alternatively, you can run program with:
+To see the options:
 
-	nade app.js -l 'city name'
+	$ node app.js --help
+
+Print out the current temperature based on IP address.
+
+	$ node app.js 
+
+Alternatively, you can specify a city with:
+
+	node app.js -l 'New York'
 
 If the Open Weather Api recognizes the city, it will return the current temperature of that city.
